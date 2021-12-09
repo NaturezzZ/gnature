@@ -2,11 +2,9 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: startpage-mirror.vercel.app
-  proxy: s2-us2.startpage.com
+  self: gnature.vercel.app
+  proxy: www.google.com
 
 replaced_urls:
-  - old: www.startpage.com
-    new: s2-us2.startpage.com
-  - old: s2-us2.startpage.com
-    new: startpage-mirror.vercel.app
+  - old: www.google.com
+    new: gnature.vercel.app

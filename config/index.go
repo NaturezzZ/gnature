@@ -27,12 +27,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: startpage-mirror.vercel.app
-  proxy: www.startpage.com
+  self: gnature.vercel.app
+  proxy: www.google.com
 
 replaced_urls:
-  - old: www.startpage.com
-    new: startpage-mirror.vercel.app
+  - old: www.google.com
+    new: gnature.vercel.app
 
 header_token_key: X-AUTH-TOKEN
 `
